@@ -17,12 +17,14 @@
 
     <span>
       <select name="currency" id="currency">
+        <option value="" disabled selected>Moeda</option>
         <option value="reais">R$</option>
         <option value="dollars">US$</option>
         <option value="euros">€</option>
       </select>
 
       <select name="country" id="country">
+        <option value="" disabled selected>País</option>
         <option value="brasil">Brasil</option>
         <option value="argentina">Argentina</option>
         <option value="estados-unidos">Estados Unidos</option>
