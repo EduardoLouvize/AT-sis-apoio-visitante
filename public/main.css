@@ -211,6 +211,10 @@ a {
   color: white;
 }
 
+#footer select {
+  margin-right: 10px;
+}
+
 .img-social-link {
   height: 24px;
   width: 24px;
