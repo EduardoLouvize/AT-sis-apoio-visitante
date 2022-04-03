@@ -103,6 +103,7 @@ a:visited {
   color: white;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   border-bottom: 5px solid #13c04d;
   z-index: 2;
 }
