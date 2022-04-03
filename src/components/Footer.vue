@@ -1,7 +1,10 @@
 <template>
   <div id="footer">
     <span>
+
+      <router-link id="logo" to="/">Logo</router-link>
       <!--<router-link id="logo" to="/"></router-link>-->
+
       <span>
         <a href="http://facebook.com">
           <img class="img-social-link" src="/images/facebook.png" alt="Facebook" />
