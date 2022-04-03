@@ -18,6 +18,8 @@
         <ExperienceCard :experience="experience" />
       </router-link>
     </div>
+  </section>
+  <section class="details">
     <router-view />
   </section>
 </template>

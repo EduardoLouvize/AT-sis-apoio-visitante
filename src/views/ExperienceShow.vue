@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="details">
         <h1>{{experience.name}}</h1>
         <p>{{experience.description}}</p>
         <img :src="`/images/${experience.image[1]}`" :alt="experience.name">
