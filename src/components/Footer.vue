@@ -3,7 +3,6 @@
     <span>
 
       <router-link id="logo" to="/">Logo</router-link>
-=======
       <!--<router-link id="logo" to="/"></router-link>-->
 
       <span>
