@@ -3,15 +3,18 @@
     <div class="registro-img">
       <img src="/images/imgRegistro.png" alt="" />
     </div>
-    <Login />
+    <login />
+    <div class="a">
+      {{ $store.state.frases }}
+    </div>
   </div>
 </template>
 
 <script>
-import Login from "@/components/Login.vue";
+import login from "@/components/login.vue";
 export default {
   components: {
-    Login,
+    login,
   },
 };
 </script>

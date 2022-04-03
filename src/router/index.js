@@ -17,20 +17,18 @@ const routes = [
             }
         ]
     },
-
     {
         path: '/registro',
         name: 'registro.view',
         component: () => import('@/views/RegistroView.vue'),
-        props: true },
-
-
-        {
-            path: '/login',
-            name: 'login',
-            component: () => import('@/views/LoginView.vue'),
-            props: true }
-            
+        props: true
+    },
+    {
+        path: '/login',
+        name: 'login',
+        component: () => import('@/views/LoginView.vue'),
+        props: true
+    }
 ]
 
 const router = createRouter({

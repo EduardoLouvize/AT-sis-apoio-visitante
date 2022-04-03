@@ -3,17 +3,15 @@
         <div class="registro-img">            
             <img src="/images/imgRegistro.png" alt="">
         </div>
-        <registro/>
+        <Registro/>
     </div>
 </template>
 
-
-
 <script>
-import  registro  from "@/components/Registro.vue";
+import  Registro  from "@/components/Registro.vue";
 export default {
     components: {
-        registro
+        Registro
     }
 }
 </script>
