@@ -1,6 +1,6 @@
 <template>
      <div class="registro">
-            <alerta/>
+            <aviso/>
         <h1>Login</h1>
                <div class="error">
                     <div  class="error" v-if="alerta.error" :style="alerta.bgc">
@@ -36,8 +36,12 @@
 
 
 <script>
-import  alerta  from "@/components/alerta.vue";
+import  aviso  from "./aviso.vue";
 export default {
+
+              components: {
+              aviso
+       },
        data() {
               return {
                      user: '',
@@ -89,10 +93,8 @@ export default {
             this.alerta.error = false
         }
               
-       },
-       components: {
-              alerta
        }
+
        
 }
 </script>

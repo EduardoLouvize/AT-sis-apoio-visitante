@@ -22,7 +22,6 @@ export default createStore({
     },
 
     verificarSenha(state, payload) {
-      console.log('a')
 
       for (let index = 0; index < state.registro.length; index++) {
         payload
